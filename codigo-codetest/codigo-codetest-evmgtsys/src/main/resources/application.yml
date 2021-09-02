@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource: # Data Source
+    url: "jdbc:postgresql://192.168.40.128:5432/db_cdg_evmgtsys"
+    username: postgres
+    password: postgres
+  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: create
+    show-sql: true
