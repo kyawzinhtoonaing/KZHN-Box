@@ -1,0 +1,12 @@
+[url]
+PATCH-http://localhost:8080/evoucherdef/activeness
+
+[header]
+Content-Type: application/json
+Accept: application/json
+
+[body]
+{
+  "id": "0ce43887",
+  "isactive": false
+}
