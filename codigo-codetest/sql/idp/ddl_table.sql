@@ -17,7 +17,7 @@ COMMENT ON TABLE public.tbl_mst_authority
 CREATE TABLE public.users
 (
     username character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    password character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    password character varying(150) COLLATE pg_catalog."default" NOT NULL,
     enabled boolean NOT NULL,
     CONSTRAINT users_pk PRIMARY KEY (username)
 )

@@ -16,6 +16,10 @@ codigo:
   codetest:
     evmgtsys:
       server:
-        port: 8080
         url: "http://localhost:8080"
         evoucherdef-by-id: "/evoucherdef"
+    idp:
+      server:
+        url: "http://localhost:8082"
+        auth-by-userpassword: "/authusrpwd"
+        auth-by-jwt: "authjwt"
