@@ -1,5 +1,0 @@
-[url]
-GET-http://localhost:8080/evoucherdef/bb82a3d4
-
-[header]
-Accept: application/json
