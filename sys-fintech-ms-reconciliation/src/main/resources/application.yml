@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:5000}
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+  datasource: # Data Source
+    url: ${JDBC_DATABASE_URL:}
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        jdbc.batch_size: 100
+  profiles:
+    active: production
+      
+file:
+  csv-dir: "csv_files"

@@ -1,0 +1,1 @@
+web: java -jar sys-fintech-ms-reconciliation/target/sys-fintech-ms-reconciliation-0.0.1-SNAPSHOT.jar
