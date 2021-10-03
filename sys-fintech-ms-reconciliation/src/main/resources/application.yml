@@ -6,13 +6,12 @@ spring:
     multipart:
       enabled: true
   datasource: # Data Source
-    url: ${JDBC_DATABASE_URL:}
+    url: ${DATABASE_URL:}
     hikari:
       connection-timeout: 30000
       maximum-pool-size: 10
   jpa:
-    hibernate:
-      ddl-auto: update
+    hibernate:      ddl-auto: update
     show-sql: false
     properties:
       hibernate:
