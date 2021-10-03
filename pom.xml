@@ -17,10 +17,6 @@
 	<name>Fintech System</name>
 	<description>Fintech System</description>
 
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-
 	<modules>
 		<module>sys-fintech-ms-reconciliation</module>
 		<module>sys-fintech-ms-reconciliation-md-common</module>
