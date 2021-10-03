@@ -10,6 +10,10 @@
 	</parent>
 
 	<artifactId>sys-fintech-ms-reconciliation-md-servicdesk</artifactId>
+	
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>

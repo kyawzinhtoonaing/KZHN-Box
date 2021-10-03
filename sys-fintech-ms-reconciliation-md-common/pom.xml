@@ -12,6 +12,10 @@
 	<artifactId>sys-fintech-ms-reconciliation-md-common</artifactId>
 	<name>Reconciliation Common Module</name>
 	<description>Reconciliation Common Module</description>
+	
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
