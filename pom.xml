@@ -26,6 +26,5 @@
 		<module>sys-fintech-ms-reconciliation-md-common</module>
 		<module>sys-fintech-ms-reconciliation-md-servicdesk</module>
 		<module>sys-fintech-ms-reconciliation-md-batchapp</module>
-		<module>sys-fintech-ms-reconciliation-md-ui</module>
 	</modules>
 </project>
