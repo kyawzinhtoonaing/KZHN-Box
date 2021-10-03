@@ -285,10 +285,10 @@ public class TxAuditService {
 				boolean isProfileNameOK = line1[2].equals(line2[2]);
 				boolean isTransactionDateOK = line1[3].equals(line2[3]);
 
-				boolean isTransactionAmountOK = (line1[4].isBlank() && line2[4].isBlank())
+				boolean isTransactionAmountOK = (line1[4].isEmpty() && line2[4].isEmpty())
 						||
 						(
-							!line1[4].isBlank() && !line2[4].isBlank() && 
+							!line1[4].isEmpty() && !line2[4].isEmpty() && 
 							BigDecimal.valueOf(Double.valueOf(line1[4]))
 								.add(BigDecimal.valueOf(Double.valueOf(line2[4])))
 								.compareTo(BigDecimal.ZERO) == 0
