@@ -11,6 +11,8 @@ spring:
       connection-timeout: 30000
       maximum-pool-size: 10
   jpa:
+    hibernate:
+      ddl-auto: update
     show-sql: false
     properties:
       hibernate:
